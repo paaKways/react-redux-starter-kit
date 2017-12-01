@@ -1,0 +1,48 @@
+{
+  "name": "react-redux-starter-kit",
+  "version": "1.0.0",
+  "description": "A starter kit for ReactJS and Redux projects",
+  "main": "index.js",
+  "scripts": {
+      "start": "webpack-dev-server --entry ./public/js/index.js --output-filename ./dist/index.bundle.js --open",
+      "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paaKways/react-redux-starter-kit.git"
+  },
+  "keywords": [
+    "starter",
+    "kit"
+  ],
+  "author": "Samuel Kwasi Boateng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paaKways/react-redux-starter-kit/issues"
+  },
+  "homepage": "https://github.com/paaKways/react-redux-starter-kit#readme"
+}
