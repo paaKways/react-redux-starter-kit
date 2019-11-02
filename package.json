@@ -4,7 +4,7 @@
   "description": "A starter kit for ReactJS and Redux projects",
   "main": "index.js",
   "scripts": {
-      "start": "webpack-dev-server --entry ./public/js/index.js --output-filename ./dist/index.bundle.js --open",
+      "start": "webpack-dev-server --entry ./src/index.js --output-filename ./dist/index.bundle.js",
       "build": "webpack"
   },
   "babel": {
