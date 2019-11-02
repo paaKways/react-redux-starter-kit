@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
       "start": "webpack-dev-server --entry ./src/index.js --output-filename ./dist/index.bundle.js",
-      "build": "webpack",
-	  "postinstall": "npm run build"
+      "build": "webpack"
   },
   "babel": {
     "presets": [
